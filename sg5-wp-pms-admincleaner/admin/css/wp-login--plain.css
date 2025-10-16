@@ -1,0 +1,59 @@
+:root {
+  --body-bg: #f9fafb;
+  --form-bg: white;
+  --form-border: none;
+  --form-shadow: rgba(0,0,0, 0.1);
+  --input-bg: #f9fafb;
+  --input-border: #c7ced9;
+  --text: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.login {
+  background: var(--body-bg);
+  color: white;
+}
+.login #login {
+  width: 90%;
+  max-width: 600px;
+}
+.login h1 {
+  width: 100%;
+}
+.login form {
+  background: var(--form-bg);
+  border: 1px solid var(--form-border);
+  border-radius: 0.3rem;
+  box-shadow: 0 3px 5px var(--form-shadow);
+  width: 100%;
+  padding: 3rem 2rem;
+}
+.login form .forgetmenot {
+  float: none;
+}
+.login form .submit #wp-submit {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.3rem;
+}
+.login label {
+  color: var(--text);
+}
+.login #nav,
+.login #backtoblog {
+  text-align: center !important;
+  width: 100%;
+}
+.login #nav a,
+.login #backtoblog a {
+  color: var(--text);
+}
+
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+  border: 1px solid var(--input-border);
+  background: var(--input-bg) !important;
+  color: var(--text);
+}/*# sourceMappingURL=wp-login--plain.css.map */
